@@ -34,7 +34,7 @@ module HitobitoSbv
                                            :correspondence_language, :besetzung,
                                            :klasse, :unterhaltungsmusik,
                                            :secondary_parent_id, :tertiary_parent_id,
-                                           :subventionen, :reported_members]
+                                           :subventionen]
 
       PeopleController.permitted_attrs += [:profession, :correspondence_language,
                                            :personal_data_usage]
