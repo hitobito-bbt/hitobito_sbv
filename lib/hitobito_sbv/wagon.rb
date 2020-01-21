@@ -28,6 +28,7 @@ module HitobitoSbv
 
       ### abilities
       RoleAbility.send :include, Sbv::RoleAbility
+      GroupAbility.send :include, Sbv::GroupAbility # this is present in master
 
       ### controllers
       GroupsController.permitted_attrs += [:vereinssitz, :founding_year,
